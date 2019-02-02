@@ -7,13 +7,13 @@ urlがリモートとローカルを関連付けに必要
 git push origin master
 githubに反映される
 
+
 githubからローカルへクローンを作って作業
 git clone url
 
 branch作成し作業する
 commitまで終わったらbranchをgithubにpushすると
-githubでもbranchがmaster以外に、
-pushしたbranchが更新される
+githubでもbranchが更新され、pushしたbranchができる（master以外に）
 github上でbranchをmasterにマージしてください
 とプルリクエストする
 承認されるとマージされる
