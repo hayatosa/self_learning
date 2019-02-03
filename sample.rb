@@ -1,23 +1,12 @@
-Gitの大まかな流れ
-branch作成、コードを書き進める init
-masterにbranchをマージ（branchはmasterでgit merge branch名）
-masterが最新状態に
-github（リモートリポジトリ）にpushする
-urlがリモートとローカルを関連付けに必要
-git push origin master
-githubに反映される
+names = ["sato","suzuki","yamada"]
 
+names.each do |name|
+  puts "私の名前は#{name}です"
+  puts "よろしくお願いします"
+end
 
-githubからローカルへクローンを作って作業
-git clone url
+hobbys = ["football","baseball","photo"]
 
-branch作成し作業する
-commitまで終わったらbranchをgithubにpushすると
-githubでもbranchが更新され、pushしたbranchができる（master以外に）
-github上でbranchをmasterにマージしてください
-とプルリクエストする
-承認されるとマージされる
-
-githubのマージされたコードをローカルへクローンする
-ローカルbranchはmasterにしておく
-git pull otigin master
+hobbys.each do |hobby|
+  puts "私の趣味は#{hobby}です"
+end
